@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800');
+
+@import './colors.scss';
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: $app-background;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.pull-right{
+  float: right;
+}
+
+.pull-left{
+  float: left;
+}
+
+.mr-1{
+  margin-right: 1em;
+}
+
+.inline-form-control {
+  display: inline-block;
+}
+
+.inline-form-control > div {
+  display: inline-block;
+  padding: 0 1rem;
+}
